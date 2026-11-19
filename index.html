@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CareerPath membantu siswa mengenali minat dan mengeksplorasi pilihan karier.">
+  <title>CareerPath - Temukan Kariermu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home">CareerPath</a>
+    <nav aria-label="Navigasi utama">
+      <a href="#home">Beranda</a>
+      <a href="#test">Tes Karier</a>
+      <a href="#careers">Jelajahi Profesi</a>
+      <a href="#about">Tentang</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">KENALI POTENSIMU, RENCANAKAN MASA DEPANMU</p>
+        <h1>Temukan arah masa depanmu!</h1>
+        <p>Jelajahi minat, kenali berbagai profesi, dan temukan langkah awal menuju karier yang sesuai dengan dirimu.</p>
+        <a class="button-link" href="#test">Mulai Tes Minat</a>
+      </div>
+      <div class="hero-card" aria-label="Pesan CareerPath">
+        <span class="hero-icon">✦</span>
+        <h2>Masa depan dimulai dari mengenal diri sendiri.</h2>
+        <p>Tidak harus langsung tahu semua jawabannya. Mulailah dengan mengeksplorasi.</p>
+      </div>
+    </section>
+
+    <section id="test" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">LANGKAH PERTAMA</p>
+        <h2>Tes Minat Karier</h2>
+        <p>Jawab tiga pertanyaan singkat untuk melihat bidang yang menarik bagimu.</p>
+      </div>
+      <div class="quiz-panel">
+        <div id="quiz-progress" class="progress-label">Siap memulai?</div>
+        <div class="progress-track"><div id="progress-bar"></div></div>
+        <div id="question">
+          <h3>Kenali bidang yang membuatmu penasaran.</h3>
+          <p>Pilih jawaban yang paling mendekati minatmu. Tidak ada jawaban benar atau salah.</p>
+          <button id="start-button" class="button">Mulai Tes</button>
+        </div>
+        <div id="result" aria-live="polite"></div>
+      </div>
+      <p class="disclaimer">Catatan: hasil tes ini merupakan bahan eksplorasi awal, bukan tes psikologi atau penentu mutlak pilihan pendidikan dan pekerjaan.</p>
+    </section>
+
+    <section id="careers" class="section section-soft">
+      <div class="section-heading">
+        <p class="eyebrow">BUKA WAWASANMU</p>
+        <h2>Jelajahi Pilihan Profesi</h2>
+        <p>Kenali gambaran pekerjaan dan keterampilan yang dapat mulai kamu pelajari.</p>
+      </div>
+      <div class="career-grid">
+        <article class="career-card">
+          <span class="career-icon">💻</span>
+          <h3>Web Developer</h3>
+          <p>Membangun dan merawat situs web atau aplikasi berbasis web.</p>
+          <p class="skill"><strong>Keterampilan:</strong> logika, pemrograman, pemecahan masalah.</p>
+        </article>
+        <article class="career-card">
+          <span class="career-icon">📈</span>
+          <h3>Digital Marketer</h3>
+          <p>Membantu organisasi mengenalkan produk atau layanan melalui kanal digital.</p>
+          <p class="skill"><strong>Keterampilan:</strong> komunikasi, kreativitas, analisis dasar.</p>
+        </article>
+        <article class="career-card">
+          <span class="career-icon">🎨</span>
+          <h3>Graphic Designer</h3>
+          <p>Menyampaikan pesan melalui desain visual untuk berbagai kebutuhan.</p>
+          <p class="skill"><strong>Keterampilan:</strong> kreativitas, komposisi, komunikasi visual.</p>
+        </article>
+        <article class="career-card">
+          <span class="career-icon">🩺</span>
+          <h3>Tenaga Kesehatan</h3>
+          <p>Bekerja di bidang pelayanan kesehatan melalui jalur pendidikan dan profesi yang sesuai.</p>
+          <p class="skill"><strong>Keterampilan:</strong> ketelitian, empati, komunikasi.</p>
+        </article>
+        <article class="career-card">
+          <span class="career-icon">📚</span>
+          <h3>Pendidik</h3>
+          <p>Mendukung proses belajar dan perkembangan pengetahuan orang lain.</p>
+          <p class="skill"><strong>Keterampilan:</strong> komunikasi, kesabaran, penguasaan materi.</p>
+        </article>
+        <article class="career-card">
+          <span class="career-icon">🧰</span>
+          <h3>Teknisi</h3>
+          <p>Memasang, memeriksa, dan merawat peralatan atau sistem teknis sesuai bidangnya.</p>
+          <p class="skill"><strong>Keterampilan:</strong> ketelitian, pemahaman teknis, keselamatan kerja.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="roadmap" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">LANGKAH KECIL, PROGRES NYATA</p>
+        <h2>Contoh Roadmap Pengembangan Diri</h2>
+        <p>Gunakan daftar ini sebagai contoh. Sesuaikan dengan bidang yang ingin kamu eksplorasi.</p>
+      </div>
+      <div class="roadmap-panel">
+        <label class="task"><input type="checkbox" class="roadmap-task"> Cari tahu tugas dan lingkungan kerja profesi yang menarik bagiku.</label>
+        <label class="task"><input type="checkbox" class="roadmap-task"> Catat tiga keterampilan yang dibutuhkan pada bidang tersebut.</label>
+        <label class="task"><input type="checkbox" class="roadmap-task"> Coba satu kegiatan atau proyek kecil untuk mengenal bidang itu.</label>
+        <label class="task"><input type="checkbox" class="roadmap-task"> Cari informasi pendidikan, pelatihan, atau sertifikasi yang relevan.</label>
+        <label class="task"><input type="checkbox" class="roadmap-task"> Diskusikan pilihan dan rencanaku dengan guru BK atau orang tepercaya.</label>
+        <div class="roadmap-footer">
+          <span id="roadmap-count">0 dari 5 langkah selesai</span>
+          <span id="roadmap-percent">0%</span>
+        </div>
+        <div class="progress-track"><div id="roadmap-bar"></div></div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div>
+        <p class="eyebrow">TENTANG CAREERPATH</p>
+        <h2>Keputusan karier adalah proses, bukan perlombaan.</h2>
+      </div>
+      <p>CareerPath adalah prototipe website edukasi untuk membantu siswa SMA/SMK mengeksplorasi minat dan pilihan setelah lulus. Gunakan informasi di dalamnya sebagai titik awal diskusi dan riset lebih lanjut bersama guru, keluarga, konselor, atau praktisi.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 CareerPath · Explore Your Potential, Build Your Future</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
